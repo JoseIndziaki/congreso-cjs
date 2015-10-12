@@ -236,3 +236,9 @@ a:focus {
 		line-height: 1.2;
 	}
 }
+#primer img{
+	position: absolute;
+	top: 70%;
+	left: 30%;
+	max-width: 300px;
+}
