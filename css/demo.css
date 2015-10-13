@@ -236,9 +236,57 @@ a:focus {
 		line-height: 1.2;
 	}
 }
-#primer img{
+/*#primer img{
 	position: absolute;
 	top: 70%;
 	left: 30%;
 	max-width: 300px;
+}
+#segundo img{
+	position: absolute;
+	top: 70%;
+	left: 30%;
+	max-width: 300px;
+}
+#tercero img{
+	position: absolute;
+	top: 70%;
+	left: 30%;
+	max-width: 300px;
+}
+#cuarto img{
+	position: absolute;
+	top: 70%;
+	left: 30%;
+	max-width: 300px;
+}
+#quinto img{
+	position: absolute;
+	top: 70%;
+	left: 30%;
+	max-width: 300px;
+}
+#sexto img{
+	position: absolute;
+	top: 70%;
+	left: 30%;
+	max-width: 300px;
+}
+#septimo img{
+	position: absolute;
+	top: 70%;
+	left: 30%;
+	max-width: 300px;
+}*/
+.temas div{
+	display: flex;
+	width: 50%;
+}
+.temas img{
+	max-width: 100%;
+	height: auto;
+}
+@font-face {
+    font-family: itc;
+    src: url(../fonts/ITCAvantGardeStd-Md.otf);
 }
