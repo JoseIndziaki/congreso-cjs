@@ -2943,15 +2943,19 @@
 			}
 
 	table tbody tr {
-		border-color: #e6e6e6;
+		border: none;
+		background: #F3F8FB;
 	}
 
 		table tbody tr:nth-child(2n + 1) {
-			background-color: rgba(144, 144, 144, 0.075);
+			background-color: rgb(237, 242, 243);
 		}
 
 	table th {
-		color: #828282;
+		color: #FFF;
+		background: #4AA9B3;
+		text-align: center;
+		padding: 20px;
 	}
 
 	table thead {
@@ -4250,5 +4254,37 @@
 }
 @font-face {
 	font-family: Signika;
-	src: url('fonts/Signika-Regular.ttf');
+	src: url('../../fonts/Signika-Regular.ttf');
+}
+table p{
+	color: #009098;
+	font-family: itc;
+    line-height: 35px !important;
+    text-align: center;
+}
+table h1{
+	line-height: 1.5em;
+}
+@font-face {
+    font-family: itc;
+    src: url(../../fonts/ITCAvantGardeStd-Md.otf);
+}
+.grande{
+	font-size: 3.5em;
+    text-align: center;
+    font-family: itc;
+    color: #717171;
+}
+.grande b{
+    color: #0080A9;
+}
+.descuento{
+	text-align: center;
+    font-size: 5em;
+    padding: 1.5em;
+    font-family: itc;
+    color: #f8991d;
+}
+.dias{
+	overflow-y: hidden;
 }
