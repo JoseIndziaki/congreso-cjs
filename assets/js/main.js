@@ -63,50 +63,75 @@
 })(jQuery);
 $( "#ponentes" )
   .mouseenter(function() {
-    $('.flotante h3').text("Ponentes");
-    $(".flotante h3").fadeIn( "slow" );
+		var top = $(this).position().top-100;
+		var left = $(this).position().left+100;
+		$('#lap').css('top', top);
+		$('#lap').css('left', left);
+    $('#lap').text("Ponentes");
+    $("#lap").fadeIn( "slow" );
+
   })
   .mouseleave(function() {
-    $('.flotante h3').text("");
+    $('.flotante h3').css("display", 'none');
   });
 $( "#temas" )
   .mouseenter(function() {
+		var top = $(this).position().top-100;
+		var left = $(this).position().left+100;
+		$('#lap').css('top', top);
+		$('#lap').css('left', left);
     $('.flotante h3').text("Temas");
     $(".flotante h3").fadeIn( "slow" );
   })
   .mouseleave(function() {
-    $('.flotante h3').text("");
+    $('.flotante h3').css("display", 'none');
   });
 $( "#registro" )
   .mouseenter(function() {
+		var top = $(this).position().top-100;
+		var left = $(this).position().left+70;
+		$('#lap').css('top', top);
+		$('#lap').css('left', left);
     $('.flotante h3').text("Registro en Línea");
     $(".flotante h3").fadeIn( "slow" );
   })
   .mouseleave(function() {
-    $('.flotante h3').text("");
+    $('.flotante h3').css("display", 'none');
   });
 
 $( "#proceso" )
   .mouseenter(function() {
+		var top = $(this).position().top-80;
+		var left = $(this).position().left+100;
+		$('#lap').css('top', top);
+		$('#lap').css('left', left);
     $('.flotante h3').text("Proceso de Inscripción");
     $(".flotante h3").fadeIn( "slow" );
   })
   .mouseleave(function() {
-    $('.flotante h3').text("");
+    $('.flotante h3').css("display", 'none');
   });
 $( "#cuota" )
   .mouseenter(function() {
+		var top = $(this).position().top;
+		var left = $(this).position().left+100;
+		$('#lap').css('top', top);
+		$('#lap').css('left', left);
     $('.flotante h3').text("Cuota de Recuperación");
     $(".flotante h3").fadeIn( "slow" );
   })
   .mouseleave(function() {
-    $('.flotante h3').text("");
+    $('.flotante h3').css("display", 'none');
   });
  $( "#programa" )
   .mouseenter(function() {
+		var top = $(this).position().top-100;
+		var left = $(this).position().left+50;
+		$('#lap').css('top', top);
+		$('#lap').css('left', left);
     $('.flotante h3').text("Programa Provisional");
     $(".flotante h3").fadeIn( "slow" );
   })
   .mouseleave(function() {
-    $('.flotante h3').text("");
+    $('.flotante h3').css("display", 'none');
   });

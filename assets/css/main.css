@@ -1651,6 +1651,14 @@
 			html, input, select, textarea {
 				font-size: 13pt;
 			}
+			.logo{
+				width: 30%;
+				float: left;
+			}
+			.mapa{
+				width: 70%;
+				float: left;
+			}
 
 		}
 
@@ -1659,6 +1667,14 @@
 			html, input, select, textarea {
 				font-size: 12pt;
 			}
+			.logo{
+				width: 100%;
+				float: left;
+			}
+			.mapa{
+				width: 100%;
+				float: left;
+			}
 
 		}
 
@@ -1666,6 +1682,14 @@
 
 			html, input, select, textarea {
 				font-size: 11pt;
+			}
+			.logo{
+				width: 100%;
+				float: left;
+			}
+			.mapa{
+				width: 100%;
+				float: left;
 			}
 
 		}
@@ -2766,10 +2790,10 @@
 /* Spotlight */
 
 	.spotlight {
-		display: -moz-flex;
+		/*display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
-		display: flex;
+		display: flex;*/
 		-moz-align-items: center;
 		-webkit-align-items: center;
 		-ms-align-items: center;
@@ -3638,21 +3662,22 @@
 		background-image: url("../../images/entr2.png");
 		background-attachment: fixed;
 		color: #d0e4f8;
-		padding: 4.5em 0 2.5em 0 ;
+		padding:2em 0 ;
 		-moz-align-items: center;
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
-		display: -moz-flex;
+		/*display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
-		display: flex;
+		display: flex;*/
 		-moz-justify-content: center;
 		-webkit-justify-content: center;
 		-ms-justify-content: center;
 		justify-content: center;
 		/*height: 100vh;
 		min-height: 35em;*/
+		text-align: center;
 	}
 
 		#header input[type="submit"],
@@ -4189,11 +4214,9 @@
 	transition:all 0.3s;
 }
 .flotante{
-	position: absolute;
-    right: 50px;
 }
 .flotante h3{
-	font-size: 50px;
+	font-size: 30px;
     font-weight: bold;
     padding: 20px;
     border-radius: 100px;
@@ -4201,6 +4224,8 @@
     background-color: #FFFFFF;
     color: #4B83AF !important;
     transition: all 1s;
+		position: absolute;
+		display: none;
 }
 .menu-iconos{
 	text-align: center;
