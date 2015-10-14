@@ -1695,7 +1695,7 @@
 		}
 
 	body, input, select, textarea {
-		font-family: Arial, Helvetica, sans-serif;
+		font-family: Signika, Arial, Helvetica, sans-serif;
 		font-weight: normal;
 		line-height: 1.5em;
 		letter-spacing: -0.015em;
@@ -1811,9 +1811,12 @@
 	blockquote {
 		border-left-style: solid;
 		border-left-width: 4px;
-		font-style: italic;
+		font-size: 1.5em;
+		line-height: 1.5em;
 		margin: 0 0 2em 0;
 		padding: 0.5em 0 0.5em 2em;
+		text-align: justify;
+		color: #444;
 	}
 
 	code {
@@ -2483,6 +2486,7 @@
 
 		ol li {
 			padding-left: 0.25em;
+			margin-bottom: 1em;
 		}
 
 	ul {
@@ -4243,4 +4247,8 @@
 .menu-iconos img:hover{
 	-webkit-transform:scale(1.2);
 	transform:scale(1.2);
+}
+@font-face {
+	font-family: Signika;
+	src: url('fonts/Signika-Regular.ttf');
 }
