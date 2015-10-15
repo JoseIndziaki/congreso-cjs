@@ -2944,7 +2944,7 @@
 
 	table tbody tr {
 		border: none;
-		background: #F3F8FB;
+		background: #f6f6f6;
 	}
 
 		table tbody tr:nth-child(2n + 1) {
@@ -4287,4 +4287,48 @@ table h1{
 }
 .dias{
 	overflow-y: hidden;
+}
+.cognito .c-span-1 {
+    max-width: 50%;
+}
+.cognito .c-span-2 {
+    max-width: 100%;
+}
+.cognito .c-forms-heading {
+    float: none!important;
+		text-align: center;
+}
+.cognito .c-label, .cognito .c-forms-heading{
+	font-family: Signika, Arial, Helvetica, sans-serif;
+}
+label{
+	font-size: 1.5em;
+	font-weight: lighter;
+}
+input, select{
+	border: none !important;
+  border-radius: 0 !important;
+  padding: 15px !important;
+  background-color: #54B3BD !important;
+  color: #FFF !important;
+  font-size: 1.5em !important;
+  font-family: itc !important;
+}
+.cognito .c-validation{
+	border-radius: 0 !important;
+}
+#c-submit-button{
+	background-color: #005686 !important;
+	border-color: #005686 !important;
+	border-radius: 0 !important;
+	color: #FFF !important;
+	box-shadow: none !important;
+}
+input[type="checkbox"], input[type="radio"]{
+	opacity: 1 !important;
+	background: none !important;
+	-moz-appearance: radio !important;
+  -webkit-appearance: radio !important;
+  -ms-appearance: radio !important;
+  appearance: radio !important;
 }
