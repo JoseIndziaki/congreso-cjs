@@ -314,6 +314,16 @@
 	}
 
 	@media screen and (max-width: 1680px) {
+		#logo{
+			width: 10%;
+		    float: left;
+		    padding-left: 2%;
+		}
+		#titulo{
+			padding: 20px;
+		    width: 80%;
+		    float: left;
+		}
 
 		.row > * {
 			padding: 0 0 0 1.5em;
@@ -1872,7 +1882,9 @@
 
 	a {
 		color: inherit;
-		border-bottom-color: #d6d6d6;
+		border: none;
+		color: #f8991d;
+		font-weight: bold;
 	}
 
 		a:hover {
@@ -3653,6 +3665,16 @@
 		.wrapper {
 			padding: 2em 1.5em 0.1em 1.5em ;
 		}
+		#logo{
+			width: 100%;
+			padding-left: 0;
+		}
+		#titulo{
+			width: 100%;
+		}
+		#logo img{
+			width: 50% !important;
+		}
 
 	}
 
@@ -3660,6 +3682,16 @@
 
 		.wrapper {
 			padding: 2em 1em 0.1em 1em ;
+		}
+		#logo{
+			width: 100%;
+			padding-left: 0;
+		}
+		#titulo{
+			width: 100%;
+		}
+		#logo img{
+			width: 50% !important;
 		}
 
 	}
@@ -3670,7 +3702,7 @@
 		background-image: url("../../images/entr2.png");
 		background-attachment: fixed;
 		color: #d0e4f8;
-		padding:2em 0 ;
+		padding:1em 0 ;
 		-moz-align-items: center;
 		-webkit-align-items: center;
 		-ms-align-items: center;
@@ -3686,6 +3718,7 @@
 		/*height: 100vh;
 		min-height: 35em;*/
 		text-align: center;
+		overflow: hidden;
 	}
 
 		#header input[type="submit"],
