@@ -9,6 +9,8 @@
 		<title>Couta de Recuperación | Congreso Nacional en Derechos Humanos</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="keywords" content="congreso anahuac, congreso ciencias juridicas, Congreso Derechos Humanos, anahuac oaxaca, derecho">
+		<meta name="description" content="Cuota de Inscripción: $500">
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="icon" type="image/ico" href="favicon.ico">
@@ -31,7 +33,7 @@
 					<section class="spotlight">
 						<div class="content">
 							<div class="dias">
-								<h2 class="grande">Entrada General: <b>$800.00</b></h2>
+								<h2 class="grande">Entrada General: <b>$500.00</b></h2>
 								<p><b>Descuentos:</b></p>
 								<table>
 									<tr>
@@ -40,10 +42,10 @@
 									</tr>
 									<tr>
 										<td>
-											<div class="descuento" id="desc1">0%</div>
+											<div class="descuento">$<span id="desc1">0</span></div>
 										</td>
 										<td>
-											<div class="descuento" id="desc2">0%</div>
+											<div class="descuento">$<span id="desc2">0</span></div>
 										</td>
 									</tr>
 								</table>
@@ -90,8 +92,8 @@
 			<script src="http://aishek.github.io/jquery-animateNumber/javascripts/jquery.animateNumber.js"></script>
 			<script>
 				var percent_number_step = $.animateNumber.numberStepFactories.append('%')
-				$('#desc1').animateNumber({ number: 50,easing: 'easeInQuad',numberStep: percent_number_step }, 3000);
-				$('#desc2').animateNumber({ number: 35,easing: 'easeInQuad',numberStep: percent_number_step }, 3000);
+				$('#desc1').animateNumber({ number: 300,easing: 'easeInQuad'}, 3000);
+				$('#desc2').animateNumber({ number: 400,easing: 'easeInQuad'}, 3000);
 			</script>
 
 	</body>
